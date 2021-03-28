@@ -1,0 +1,13 @@
+.nav{
+    text-decoration: none;
+    padding: 0px 8px;
+    font-size: large;
+}
+
+.navbar{
+    float: right;
+}
+
+.first-section{
+    clear: both;
+}
