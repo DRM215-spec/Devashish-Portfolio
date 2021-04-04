@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
+:root{
+    --skill-img:#F9FAFB;
+}
+
 body{
     font-family: 'Merriweather', serif;
 }
@@ -73,3 +77,21 @@ body{
     width:150px;
 }
 
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.skills-list{
+    list-style-type: none;
+    display: inline-block;
+    width:400px;
+    padding-bottom: 3rem;
+}
+.skills-list-img{
+    display:block;margin:auto;
+}
+
+.skill-img-color{
+    background-color: var(--skill-img);
+}
