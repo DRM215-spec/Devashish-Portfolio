@@ -11,57 +11,61 @@
 
     <div>
         <nav class="navbar">
-            <a href="#" class="nav">Home</a>
-            <a href="/#education" data-target="#education" class="nav">Education</a>
-            <a href="/#skills" data-target="#skills" class="nav">Skills</a>
-            <a href="/#experience" data-target="#experience" class="nav">Experience</a>
-            <a href="/#contact" data-target="#contact" class="nav">Contact</a>
+            <ul class="navbar-ul">
+                <li class="nav-list"><a href="#" class="nav">Home</a></li>
+                <li class="nav-list"><a href="/#education" data-target="#education" class="nav">Education</a></li>
+                <li class="nav-list"><a href="/#skills" data-target="#skills" class="nav">Skills</a></li>
+                <li class="nav-list"><a href="/#experience" data-target="#experience" class="nav">Experience</a></li>
+                <li class="nav-list"><a href="/#contact" data-target="#contact" class="nav">Contact</a></li>
+            </ul>
         </nav>
     </div>
 
     <div class="first-section">
-        <div style="float: left; width:40%;">
-            <img src="images/dev.jpg" class="dev-img">
+        <img src="images/dev.jpg" class="dev-img">
             <p class="dev-title"><strong>Devashish Ranjan Mahto</strong></p>
-            <p style="color:#2563EB;margin-left:170px;margin-top:-20px;"><strong>Front-End Web Developer</strong></p>   
-            <p style="color:#2563EB;margin-left:200px;margin-top:-8px"><i>Infosys Limited</i></p>  
-        </div>
-
-        <div style="float: right;width: 55%;margin-top: 50px;">
-            <h1>Biography</h1>
-            <p class="text-par">
-                Hi, I am Devashish Ranjan Mahto, a software Engineer graduated from Silicon Institute of Technology, Bhubaneswar(Odisha, India) in 2018. 
-                Currently I am working for Infosys Limited, as a frontend web developer.
-            </p>
-                <br><br>
-            <h1>About</h1>
-            <p class="text-par">
-                I am an innovative web developer with around 3 years of experience in structuring, developing and implementing
-                interactive websites. Skilled at writing well-designed and efficient code using current best practices in web development.
-                Highly motivated , goal oriented  and a good team player. Able to complete projects efficiently and satisfy clients with 
-                well-developed applications.
-            </p>
-        </div>
+            <p style="margin-top:-20px;" class="dev-title-mini"><strong>Front-End Web Developer</strong></p>   
+            <p style="margin-top:-8px" class="dev-title-mini"><i>Infosys Limited</i></p>   
     </div>
+
+    <div class="next-section">       
+        <h1 class="left-space">Biography</h1>
+        <p class="left-space">
+            Hi, I am Devashish Ranjan Mahto, a software Engineer graduated from Silicon Institute of Technology, Bhubaneswar(Odisha, India) in 2018. Currently I am working for Infosys Limited, as a frontend web developer.
+        </p>
+        <br><br>
+        <h1 class="left-space">About</h1>
+        <p class="left-space">
+            I am an innovative web developer with around 3 years of experience in structuring, developing and implementing interactive websites. Skilled at writing well-designed and efficient code using current best practices in web development. Highly motivated , goal oriented  and a good team player. Able to complete projects efficiently and satisfy clients with well-developed applications.
+        </p>
+    </div>
+
+    <hr>
 
     <div class="next-section" id="education">
-        <hr>
-        <h1 class="left-space">Education</h1>
-        <img src="images/education.svg" class="left-space education-img">
-        <span class="education-text">B.Tech in Computer Science and Engineering, 2018</span>
-        <p class="education-text-mini">Silicon Institute Of Technology, Bhubaneswar</p>
-        <br>
-        <img src="images/education.svg" class="left-space education-img">
-        <span class="education-text">Intermediate of Science, 2013</span>
-        <p class="education-text-mini">St. Xavier's College, Ranchi</p>
-        <br>
-        <img src="images/education.svg" class="left-space education-img">
-        <span class="education-text">Senior Secondary, 2011</span>
-        <p class="education-text-mini">R.T.C. Public High School, Jharkhand</p>      
+       <h1 class="left-space">Education</h1>
+        <ul>
+            <li class="education-list">
+                <img src="images/education.svg" class="education-img">
+                <p class="education-text"><strong>B.Tech in Computer Science and Engineering, 2018</strong></p>
+                <p class="education-text-mini">Silicon Institute Of Technology, Bhubaneswar</p>
+            </li>
+            <li class="education-list">
+                <img src="images/education.svg" class="education-img">
+                <p class="education-text"><strong>Intermediate of Science, 2013</strong></p>
+                <p class="education-text-mini">St. Xavier's College, Ranchi</p>
+            </li>
+            <li class="education-list">
+                <img src="images/education.svg" class="education-img">
+                <p class="education-text"><strong>Senior Secondary, 2011</strong></p>
+                <p class="education-text-mini">R.T.C. Public High School, Jharkhand</p>
+            </li>
+        </ul>
     </div>
 
-   <div class="next-section" id="skills">
-        <hr>
+    <hr>
+
+    <div class="next-section" id="skills">      
         <h1 class="left-space">Technical Skills</h1>
         <ul>
             <li class="skills-list skill-img-color">
@@ -79,7 +83,6 @@
                 <p style="text-align: center;"><strong>IDE</strong></p>
                 <p style="text-align: center;">HTML5, CSS3, Javascript, Angular</p>
             </li>
-
         </ul>
 
         <ul>
@@ -96,19 +99,20 @@
         </ul>
    </div>
 
-   <div class="next-section" id="experience">
-        <hr>
+   <hr>
+
+   <div class="next-section" id="experience">      
         <h1 class="left-space">Work Experience</h1>
         <br>
-        <ul style="margin-left: 90px;">
-            <li class="text-par">Working as a Senior Systems Engineer with Infosys Ltd., Pune.</li>
+        <ul class="left-space">
+            <li>Working as a Senior Systems Engineer with Infosys Ltd., Pune.</li>
             <br>
-            <li class="text-par">Worked as a Systems Engineer in Infosys Ltd, Pune from Oct 2018 to June 2020. 
+            <li>Worked as a Systems Engineer in Infosys Ltd, Pune from Oct 2018 to June 2020. 
                 In this duration, I also got an opportunity to travel to the onsite location (Tanzania, East Africa). 
                 Working with clients from the client location was a great experience and it helped me to grow professionally a lot.
             </li>
             <br>
-            <li class="text-par">Worked as a System Engineer Trainee in Infosys Ltd, Mysore from May 2018 to Sep 2018.</li>
+            <li>Worked as a System Engineer Trainee in Infosys Ltd, Mysore from May 2018 to Sep 2018.</li>
         </ul>
         <br>
         <h3 class="left-space"><strong>Professional Experience: </strong></h3>
@@ -118,7 +122,7 @@
         </p>
         <br>
         <p class="left-space"><strong>Few of my responsibilities are: </strong></p>
-        <ul style="margin-left: 90px;">
+        <ul class="left-space">
             <li class="text-par">I am the part of development and implementation team.</li>
             <br>
             <li class="text-par">Design and code the new feature as well as enhancement of the existing feature as per the business
@@ -133,16 +137,17 @@
         </ul>
    </div>
 
-   <div class="next-section" id="contact">
-        <hr>
-        <h1 class="left-space">Contact</h1>
+   <hr>
 
-        <p class="left-space"><strong>Gmail: </strong><span>devashishranjan39@gmail.com</span></p>
-        <p class="left-space"><strong>Mobile: </strong><span>+91-8480091164</span></p>
-    
+   <div class="next-section" id="contact">      
+       <footer>
+            <h1 class="left-space">Contact</h1>
+            <p class="left-space"><strong>Gmail: </strong><span>devashishranjan39@gmail.com</span></p>
+            <p class="left-space"><strong>Mobile: </strong><span>+91-8480091164</span></p> 
+            <a class="left-space social-link" href="https://www.linkedin.com/in/devashish-ranjan-mahto-6514a3169/">LinkedIn</a> 
+       </footer>
+        
     </div>
 
-    <br>
-    <br>
 </body>
 </html>
